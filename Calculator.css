@@ -1,0 +1,80 @@
+
+.bkimg{
+    background-image: url('../Components/Calbnk.png');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+}
+.cal-bdy{
+   
+    margin-top: 50%;
+    width: 70%;
+    margin-left: 60px;
+}
+.cl{
+    background-color: beige;
+   border-radius: 25px;
+}
+.btn-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    gap: 5px;
+}
+.btn{
+    height: 50px;
+    width: 50px;
+}
+
+@media screen and(max-width:932px){
+
+    .cal-bdy{
+   
+        margin-top: 50%;
+        width: 70%;
+        margin-left: 60px;
+    }
+    .cl{
+        background-color: beige;
+       border-radius: 25px;
+    }
+    .btn-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        gap: 5px;
+    }
+    .btn{
+        height: 50px;
+        width: 50px;
+    }
+}
+    
+@media screen and(max-width:600px){
+    .cal-bdy{
+   
+        margin-top: 50%;
+        width: 70%;
+        margin-left: 60px;
+    }
+    .cl{
+        background-color: beige;
+       border-radius: 25px;
+    }
+    .btn-row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+        gap: 5px;
+    }
+    .btn{
+        height: 50px;
+        width: 50px;
+    }
+}
+
